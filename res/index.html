@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NS Cafe Corner - Fine Dining Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">NS Cafe Corner</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#reservation">Reservation</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>
+                <span class="word">Welcome</span>
+                <span class="word">to</span>
+                <span class="word">NS Cafe</span>
+                <span class="word">Corner</span>
+            </h1>
+            <div class="hero-actions">
+                <a href="#reservation" class="btn">Book a Table</a>
+                <div class="hero-underline"></div>
+            </div>
+            <p>Experience the finest culinary journey</p>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-categories">
+            <a href="#all" class="category-btn active">All</a>
+            <a href="#starters" class="category-btn">Starters</a>
+            <a href="#main" class="category-btn">Main Course</a>
+            <a href="#desserts" class="category-btn">Desserts</a>
+        </div>
+        <div class="menu-items">
+            <!-- Starters -->
+            <a href="#bruschetta" class="menu-item starters">
+                <div class="menu-item-img">
+                    <img src="https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&fit=crop&w=500&q=80" alt="Bruschetta">
+                </div>
+                <h3>Bruschetta</h3>
+                <p>Fresh tomatoes, basil, and garlic on toasted bread</p>
+                <span class="price">₹699</span>
+                <span class="view-details-btn">View Details</span>
+            </a>
+            <a href="#caprese" class="menu-item starters">
+                <div class="menu-item-img">
+                    <img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=500&q=80" alt="Caprese Salad">
+                </div>
+                <h3>Caprese Salad</h3>
+                <p>Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze</p>
+                <span class="price">₹899</span>
+                <span class="view-details-btn">View Details</span>
+            </a>
+            <a href="#calamari" class="menu-item starters">
+                <div class="menu-item-img">
+                    <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&w=500&q=80" alt="Calamari">
+                </div>
+                <h3>Calamari</h3>
+                <p>Crispy fried squid served with marinara sauce</p>
+                <span class="price">₹1299</span>
+                <span class="view-details-btn">View Details</span>
+            </a>
+
+            <!-- Main Course -->
+            <a href="#salmon" class="menu-item main">
+                <div class="menu-item-img">
+                    <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=500&q=80" alt="Grilled Salmon">
+                </div>
+                <h3>Grilled Salmon</h3>
+                <p>Fresh salmon with lemon butter sauce</p>
+                <span class="price">₹2499</span>
+                <span class="view-details-btn">View Details</span>
+            </a>
+            <a href="#beef" class="menu-item main">
+                <div class="menu-item-img">
+                    <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=500&q=80" alt="Beef Tenderloin">
+                </div>
+                <h3>Beef Tenderloin</h3>
+                <p>Grass-fed beef with red wine reduction</p>
+                <span class="price">₹3299</span>
+                <span class="view-details-btn">View Details</span>
+            </a>
+            <a href="#chicken" class="menu-item main">
+                <div class="menu-item-img">
+                    <img src="https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=500&q=80" alt="Chicken Parmesan">
+                </div>
+                <h3>Chicken Parmesan</h3>
+                <p>Breaded chicken breast with marinara and mozzarella</p>
+                <span class="price">₹1999</span>
+                <span class="view-details-btn">View Details</span>
+            </a>
+
+            <!-- Desserts -->
+            <a href="#tiramisu" class="menu-item desserts">
+                <div class="menu-item-img">
+                    <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=500&q=80" alt="Tiramisu">
+                </div>
+                <h3>Tiramisu</h3>
+                <p>Classic Italian dessert with coffee and mascarpone</p>
+                <span class="price">₹699</span>
+                <span class="view-details-btn">View Details</span>
+            </a>
+            <a href="#lava-cake" class="menu-item desserts">
+                <div class="menu-item-img">
+                    <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=500&q=80" alt="Chocolate Lava Cake">
+                </div>
+                <h3>Chocolate Lava Cake</h3>
+                <p>Warm chocolate cake with a molten center</p>
+                <span class="price">₹799</span>
+                <span class="view-details-btn">View Details</span>
+            </a>
+            <a href="#creme-brulee" class="menu-item desserts">
+                <div class="menu-item-img">
+                    <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=500&q=80" alt="Crème Brûlée">
+                </div>
+                <h3>Crème Brûlée</h3>
+                <p>Classic French custard with caramelized sugar</p>
+                <span class="price">₹799</span>
+                <span class="view-details-btn">View Details</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Menu Item Popups -->
+    <div id="bruschetta" class="menu-popup">
+        <div class="popup-content">
+            <a href="#menu" class="close-popup">&times;</a>
+            <div class="popup-img">
+                <img src="https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&fit=crop&w=500&q=80" alt="Bruschetta">
+            </div>
+            <div class="popup-details">
+                <h3>Bruschetta</h3>
+                <p class="popup-description">Fresh tomatoes, basil, and garlic on toasted bread</p>
+                <div class="popup-price">₹699</div>
+                <div class="popup-actions">
+                    <a href="#menu" class="add-to-cart">Add to Cart</a>
+                    <a href="#menu" class="order-now">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="caprese" class="menu-popup">
+        <div class="popup-content">
+            <a href="#menu" class="close-popup">&times;</a>
+            <div class="popup-img">
+                <img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=500&q=80" alt="Caprese Salad">
+            </div>
+            <div class="popup-details">
+                <h3>Caprese Salad</h3>
+                <p class="popup-description">Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze</p>
+                <div class="popup-price">₹899</div>
+                <div class="popup-actions">
+                    <a href="#menu" class="add-to-cart">Add to Cart</a>
+                    <a href="#menu" class="order-now">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add similar popup divs for other menu items -->
+    <!-- ... existing code ... -->
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>Our Story</h2>
+            <p>Founded in 2010, Gourmet Delight has been serving exceptional cuisine in a warm and inviting atmosphere. Our chefs use only the finest ingredients to create memorable dining experiences.</p>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Fresh Ingredients</h3>
+                    <p>Locally sourced, organic produce</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-wine-glass-alt"></i>
+                    <h3>Wine Selection</h3>
+                    <p>Curated wine list from around the world</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-concierge-bell"></i>
+                    <h3>Excellent Service</h3>
+                    <p>Professional and attentive staff</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation">
+        <div class="reservation-overlay"></div>
+        <div class="reservation-content">
+            <h2>Make a Reservation</h2>
+            <p class="reservation-subtitle">Book your table for an unforgettable dining experience</p>
+            <form class="reservation-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <i class="fas fa-phone"></i>
+                        <input type="tel" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-users"></i>
+                        <input type="number" placeholder="Number of Guests" min="1" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <i class="fas fa-calendar"></i>
+                        <input type="date" required>
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-clock"></i>
+                        <input type="time" required>
+                    </div>
+                </div>
+                <div class="form-group full-width">
+                    <i class="fas fa-comment"></i>
+                    <textarea placeholder="Special Requests (Optional)" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn submit-btn">
+                    <span>Book Now</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>15, Park Street, 3rd Floor,<br>Near Flurys,<br>Kolkata - 700016,<br>West Bengal, India</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 98765 43210</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@nscafecorner.com</p>
+                    </div>
+                </div>
+                <div class="opening-hours">
+                    <h3>Opening Hours</h3>
+                    <p>Monday - Friday: 11:00 AM - 10:30 PM</p>
+                    <p>Saturday - Sunday: 10:30 AM - 11:00 PM</p>
+                </div>
+            </div>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.1051952000003!2d88.3503!3d22.5518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277b7f3d1f3c9%3A0x2f0c0a3f0c0a3f0c!2sPark%20Street%2C%20Kolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2024 Gourmet Delight. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
